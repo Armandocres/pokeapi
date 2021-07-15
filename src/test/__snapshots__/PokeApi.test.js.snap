@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componentes giftExpertApp Debe mostrar la lista de categorias 1`] = `
+<Fragment>
+  <h1>
+    PokeApi
+  </h1>
+  <AddPokemon
+    setpoke={[Function]}
+  />
+  <PokeGrid
+    pokemon="pikachu"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en el componentes giftExpertApp Prueba del snapchot 1`] = `
+<Fragment>
+  <h1>
+    PokeApi
+  </h1>
+  <AddPokemon
+    setpoke={[Function]}
+  />
+  <PokeGrid
+    pokemon="pikachu"
+  />
+</Fragment>
+`;

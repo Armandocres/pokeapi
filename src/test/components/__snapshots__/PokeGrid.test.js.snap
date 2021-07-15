@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente Pokegrid Debe cambiar el snapshot usando el useFetch 1`] = `
+<div
+  className="card-grid"
+>
+  <figure
+    className="card__figure"
+  >
+    <img
+      alt="pikachu"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg"
+    />
+  </figure>
+  <div>
+    <p>
+      Pokemon: 
+      pikachu
+    </p>
+    <p>
+      Peso: 
+      56
+    </p>
+    <p>
+      Especie: 
+      pikachu
+    </p>
+    <p>
+      Id: 
+      1
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en componente Pokegrid Snapshoot 1`] = `
+<div
+  className="card-grid"
+>
+  <p>
+    Cragando...
+  </p>
+  <figure
+    className="card__figure"
+  >
+    <img />
+  </figure>
+  <div>
+    <p>
+      Pokemon: 
+    </p>
+    <p>
+      Peso: 
+    </p>
+    <p>
+      Especie: 
+    </p>
+    <p>
+      Id: 
+    </p>
+  </div>
+</div>
+`;

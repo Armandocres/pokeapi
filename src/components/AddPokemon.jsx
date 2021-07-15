@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const AddPokemon = ({ setpoke }) => {
 	const [inputValue, setinputValue] = useState("");
@@ -21,6 +22,10 @@ const AddPokemon = ({ setpoke }) => {
 			<input type="text" value={inputValue} onChange={handleInput} />
 		</form>
 	);
+};
+
+AddPokemon.propTypes = {
+	setpoke: PropTypes.func.isRequired,
 };
 
 export default AddPokemon;

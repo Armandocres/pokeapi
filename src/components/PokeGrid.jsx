@@ -1,5 +1,6 @@
 import React from "react";
 import useFetchPokemones from "../hooks/useFetchPokemones";
+import PropTypes from "prop-types";
 
 const PokeGrid = ({ pokemon }) => {
 	const { data: pokemones, loading } = useFetchPokemones(pokemon);
@@ -18,6 +19,10 @@ const PokeGrid = ({ pokemon }) => {
 			</div>
 		</div>
 	);
+};
+
+PokeGrid.propTypes = {
+	pokemon: PropTypes.string.isRequired,
 };
 
 export default PokeGrid;

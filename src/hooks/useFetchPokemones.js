@@ -9,12 +9,10 @@ const useFetchPokemones = ( pokemon ) => {
 
   useEffect(() => {
 		getPokemones(pokemon).then((pokemo) => {
-      setTimeout(() => {
         setstate({
           data: pokemo,
           loading: false
         })
-      }, 1200);
     });
 	}, [pokemon]);
 

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import AddPokemon from "./components/AddPokemon";
 import PokeGrid from "./components/PokeGrid";
 
-const PokeApi = () => {
-	const [pokemon, setPokemon] = useState(["pikachu"]);
+const PokeApi = ({ defaultCategpries = "pikachu" }) => {
+	const [pokemon, setPokemon] = useState(defaultCategpries);
 
 	return (
 		<>

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente AddPokemon Pruebas en Snapshot 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="pokemon"
+  >
+    Busca a tu pokemon
+  </label>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
